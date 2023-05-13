@@ -19,7 +19,8 @@ name: CI Actions  # don't edit while the badge was depend on this
 
 on:
   push:
-    branches: [*]
+    branches: 
+      - '*'
   pull_request:
     branches:
       - unstable
